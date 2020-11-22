@@ -1,0 +1,26 @@
+{
+  "name": "tclone-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "mon": "nodemon ./bin/www",
+    "debug": "DEBUG=server:* npm start"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.14",
+    "mongoose-long": "^0.3.0",
+    "morgan": "~1.9.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "web-push": "^3.4.4"
+  }
+}
